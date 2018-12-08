@@ -157,7 +157,7 @@ table td img {
 <h4>No implementation</h4>
 <p style="text-align:justify">In the given starter code, we use the placeholder code for the face detection pipeline. On running the starter code, I got the following results:</p>
 <center>
-	<img src="placeholder.png" width="35%"/>
+	<img src="placeholder.PNG" width="35%"/>
 </center>
 
 <br>
@@ -165,7 +165,7 @@ table td img {
 <h4>Part 1: Extract positive features</h4>
 <p style="text-align:justify">This function will return all positive training examples (faces) from 36x36 images in 'train_path_pos'. Each face will be converted into a HoG template according to 'feature_params'. On running the code, I got the following results:</p>
 <center>
-	<img src="pos feats.png" width="33%"/>
+	<img src="pos feats.PNG" width="33%"/>
 </center>
 
 <br>
@@ -183,7 +183,7 @@ table td img {
 <h4>Part 2: Extract negative features</h4>
 <p style="text-align:justify">This function will return negative training examples (non-faces) from any images in 'non_face_scn_path'. On running the code, I got the following results:</p>
 <center>
-	<img src="neg feats.png" width="31%"/>
+	<img src="neg feats.PNG" width="31%"/>
 </center>
 
 <p style="text-align:justify">We see that our average precision is still 0 as we have not yet implemented our classifier to train or test our data. Once we do this we will see a boost in precision. we can observe that our train accuracy went down from 0.985 to 0.402. Our true positive rate went down while our false positive rate went up. This will be rectified after implementation of the SVM classifier.</p>
@@ -203,7 +203,7 @@ table td img {
 <h4>Part 3: Classifier training</h4>
 <p style="text-align:justify">I have included the code to train the classifier in the main proj5.m file instead of creating a new function since it was a matter of very few lines. We use vl_svmtrain on our training features to get a linear classifier specified by w and b. On running the code, I got the following results:</p>
 <center>
-	<img src="run detector.png" width="30%"/>
+	<img src="run detector.PNG" width="30%"/>
 </center>
 <p style="text-align:justify">It can be observed that our accuracy has increased but our precision is still zero. </p>
 <br>
@@ -253,10 +253,10 @@ Maximum Average precision : 0.892	<br>
 <p style="text-align:justify">2] Considering a template size of 36 and a cell size of 4, I get better results but the execution time is longer. The results I got are as follows:
 <br>	
 <i>Output:</i><br>
-<img src="918 hog.png" width="24.5%"/>
-<img src="918 plot.png" width="24.5%"/>
-<img src="918 ap.png" width="24.5%"/>
-<img src="918 vj.png" width="24.5%"/>
+<img src="918 hog.PNG" width="24.5%"/>
+<img src="918 plot.PNG" width="24.5%"/>
+<img src="918 ap.PNG" width="24.5%"/>
+<img src="918 vj.PNG" width="24.5%"/>
 <br>
 <!-- <img src="914/3.png" width="24.5%"/>
 <img src="914/4.png" width="24.5%"/>
@@ -346,11 +346,11 @@ In the original pipeline, we extract positive and negative features, train our S
 The results observed after my implementation (for template_size=36 and cell_size=4) are:<br><br>
 </p>
 <i>Output:</i><br>
-<img src="hard neg/4.png" width="24.5%"/>
-<img src="hard neg/1.png" width="24.5%"/>
-<img src="hard neg/2.png" width="24.5%"/>
-<img src="hard neg/3.png" width="24.5%"/>
-<center><img src="hard neg/5.png" width="45%"/></center>
+<img src="hard neg/4.PNG" width="24.5%"/>
+<img src="hard neg/1.PNG" width="24.5%"/>
+<img src="hard neg/2.PNG" width="24.5%"/>
+<img src="hard neg/3.PNG" width="24.5%"/>
+<center><img src="hard neg/5.PNG" width="45%"/></center>
 <br>
 
 <p style="text-align:justify">
@@ -369,11 +369,11 @@ The results observed after my implementation (for template_size=36 and cell_size
 </p>
 
 <i>Output:</i><br>
-<img src="dalal/hog 882.png" width="24.5%"/>
-<img src="dalal/882.png" width="24.5%"/>
-<img src="dalal/ap 882.png" width="24.5%"/>
-<img src="dalal/vj 882.png" width="24.5%"/>
-<center><img src="dalal/argentina 882.png" width="45%"/></center>
+<img src="dalal/hog 882.PNG" width="24.5%"/>
+<img src="dalal/882.PNG" width="24.5%"/>
+<img src="dalal/ap 882.PNG" width="24.5%"/>
+<img src="dalal/vj 882.PNG" width="24.5%"/>
+<center><img src="dalal/argentina 882.PNG" width="45%"/></center>
 <br>
 
 <p style="text-align:justify">
@@ -399,11 +399,11 @@ The results observed after my implementation (for template_size=36 and cell_size
 </p>
 
 <i>Output:</i><br>
-<img src="replace/1.png" width="24.5%"/>
-<img src="replace/2.png" width="24.5%"/>
-<img src="replace/3.png" width="24.5%"/>
-<img src="replace/4.png" width="24.5%"/>
-<center><img src="replace/5.png" width="45%"/></center>
+<img src="replace/1.PNG" width="24.5%"/>
+<img src="replace/2.PNG" width="24.5%"/>
+<img src="replace/3.PNG" width="24.5%"/>
+<img src="replace/4.PNG" width="24.5%"/>
+<center><img src="replace/5.PNG" width="45%"/></center>
 <br>
 
 <p style="text-align:justify">
@@ -417,30 +417,30 @@ As mentioned on the site, LFWcrop Face Dataset was created to prevent unrealisti
 a> Flipping:
 In this implementation, the image that is read in is flipped in the vertical direction.<br>
 Output:<br>
-<img src="flipud/1.png" width="24.5%"/>
-<img src="flipud/2.png" width="24.5%"/>
-<img src="flipud/3.png" width="24.5%"/>
-<img src="flipud/4.png" width="24.5%"/>
-<center><img src="flipud/5.png" width="45%"/></center>
+<img src="flipud/1.PNG" width="24.5%"/>
+<img src="flipud/2.PNG" width="24.5%"/>
+<img src="flipud/3.PNG" width="24.5%"/>
+<img src="flipud/4.PNG" width="24.5%"/>
+<center><img src="flipud/5.PNG" width="45%"/></center>
 <br><br>
 b> Smoothening:
 In this implementation, the image that is read in is smoothened using a Gaussian filter.<br>
 Output:<br>
-<img src="smooth/1.png" width="24.5%"/>
-<img src="smooth/2.png" width="24.5%"/>
-<img src="smooth/3.png" width="24.5%"/>
-<img src="smooth/4.png" width="24.5%"/>
-<center><img src="smooth/5.png" width="45%"/></center>
+<img src="smooth/1.PNG" width="24.5%"/>
+<img src="smooth/2.PNG" width="24.5%"/>
+<img src="smooth/3.PNG" width="24.5%"/>
+<img src="smooth/4.PNG" width="24.5%"/>
+<center><img src="smooth/5.PNG" width="45%"/></center>
 <br><br>
 	c> Sharpening:
 		In this implementation, the image that is read in is flipped in the vertical direction.<br>
 
 		Output:<br>
-		<img src="sharp/1.png" width="24.5%"/>
-		<img src="sharp/2.png" width="24.5%"/>
-		<img src="sharp/3.png" width="24.5%"/>
-		<img src="sharp/4.png" width="24.5%"/>
-		<center><img src="sharp/5.png" width="45%"/></center>
+		<img src="sharp/1.PNG" width="24.5%"/>
+		<img src="sharp/2.PNG" width="24.5%"/>
+		<img src="sharp/3.PNG" width="24.5%"/>
+		<img src="sharp/4.PNG" width="24.5%"/>
+		<center><img src="sharp/5.PNG" width="45%"/></center>
 		<br><br>	
 <p style="text-align:justify">		
 Analysis:<br>
