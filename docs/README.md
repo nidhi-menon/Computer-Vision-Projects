@@ -1,3 +1,3 @@
 Hi
 
-permalink: Project 1
+permalink: ../Project 1/index.html
