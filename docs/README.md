@@ -1,3 +1,11 @@
-Hi
+<!doctype html>
 
-[Project 1] (https://www.cc.gatech.edu/~hays/compvision2017/proj1)
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>The HTML5 Herald</title>
+</head>
+<body>
+  Hello!
+</body>
+</html>
