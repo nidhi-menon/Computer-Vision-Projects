@@ -36,6 +36,7 @@
       [<a href="https://www.cc.gatech.edu/~hays/compvision2017/proj5">Task</a>]
       [<a href="http://htmlpreview.github.io/?https://github.com/nidhi-menon/Computer-Vision-Projects/blob/master/Project%205/index.html">Solution</a>]
     </li>
+    <br>
     <li>Project 6: Deep Learning
       <br>
       [<a href="https://www.cc.gatech.edu/~hays/compvision2017/proj6">Task</a>]
