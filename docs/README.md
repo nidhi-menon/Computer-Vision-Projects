@@ -1,6 +1,6 @@
 These projects were completed as part of course requirements of CS 6476 Computer Vision under Prof. James Hays in Fall 2017 at Georgia Tech.
 
-##Image Filtering and Hybrid images
+## Image Filtering and Hybrid images
 
 Project : https://www.cc.gatech.edu/~hays/compvision2017/proj1
 
