@@ -7,7 +7,7 @@
   <p>The following projects were completed as part of the course requirements of CS 6476 Computer Vision under Prof. James Hays at Georgia Tech in Fall 2017:</p>
   <br>
   <ul style="list-style-type:disc">
-    <li><a href="https://www.cc.gatech.edu/~hays/compvision2017/proj1">Project 1: Image Filtering and Hybrid images</a></li>
+    <li>Project 1: <a href="https://www.cc.gatech.edu/~hays/compvision2017/proj1">Task: Image Filtering and Hybrid images</a></li>
     <li><a href="https://www.cc.gatech.edu/~hays/compvision2017/proj2">Project 2: Local Feature Matching</a></li>
     <li><a href="https://www.cc.gatech.edu/~hays/compvision2017/proj3">Project 3: Camera Calibration and Fundamental Matrix Estimation with RANSAC</a></li>
     <li><a href="https://www.cc.gatech.edu/~hays/compvision2017/proj4">Project 4: Scene Recognition with Bag of Words</a></li>
