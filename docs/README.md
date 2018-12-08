@@ -36,9 +36,6 @@
       [<a href="https://www.cc.gatech.edu/~hays/compvision2017/proj6">Task</a>]
       [<a href="http://htmlpreview.github.io/?https://github.com/nidhi-menon/Computer-Vision-Projects/blob/master/Project%206/index.html">Solution</a>]
     </li>
-    <li>
-      Read more [here](./Project 6/index.html)
-    </li>
   </ul>
 </body>
 </html>
